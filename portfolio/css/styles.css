@@ -1,0 +1,140 @@
+
+
+.body{font-family: 'Roboto', 'Arial', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;}
+
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: #293462;
+  color: white;
+  height: 7vh;
+  
+}
+.div{display: flex;
+justify-content: space-evenly;
+width: 50%;}
+.logo{display: flex;
+  width: 50%;
+padding-left: 20vw;
+font-size: 4vh;
+}
+.logopointer{cursor: pointer;}
+.yo{cursor: pointer;}
+.portfolio{cursor: pointer;}
+.contacto{cursor: pointer;}
+
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 93vh;
+  background-image: url(https://wallpapercave.com/wp/wp2049764.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.conocemebtn{
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;}
+
+  .nombre{font-size: 7vh;
+margin-bottom: 3vh;
+}
+.p{font-size: 4vh;}
+.grilla{display: grid;
+ 
+grid-template-rows: 100vh 100vh;
+}
+#proyectos{display: grid;
+grid-template-rows: 7vh 93vh;
+text-align: center;
+align-items: center;
+
+}
+.proyectosbtn{
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;}
+
+
+  .contentportfolio{display: grid;
+  grid-template-columns: auto auto auto;
+  color: azure;
+  
+
+}
+#sectionyo{display: grid;
+grid-auto-rows: 7vh 93vh;
+text-align: center;
+align-items: center;}
+
+
+.headyo{
+  background-color: #293462;
+height: 7vh;
+padding-top: 1.2vh;
+font-size: 3.5vh;
+color: azure;}
+
+.contentyo{background-image: url(https://getwallpapers.com/wallpaper/full/e/9/3/934747-amazing-gondor-wallpapers-1920x1200-for-ipad.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 93vh;
+padding-top: 35vh;
+color: azure;
+font-size: 4vh;}
+
+.headportfolio{background-color: #293462;
+height: 7vh;
+padding-top: 1.2vh;
+font-size: 3.5vh;
+color: azure;}
+.comarca{background-image: url(https://iiwiki.us/mediawiki/images/a/a1/Flag_of_the_Shire.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 93vh;
+}
+.rohan{
+  background-image:url(https://i.pinimg.com/originals/19/3a/6b/193a6bdec38ffa000c2819d33d397cbf.jpg) ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 93vh;
+}
+.Gondor{background-image: url(https://i.pinimg.com/originals/bc/2b/da/bc2bda0a73fc97fb68d0ad8c59aecaf3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 93vh;
+}
+.titulo{font-size: 5vh;
+margin-bottom: 80vh;}
+
+.btn{color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;}
+  #footer{background-color: #293462;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;}
+    
+
+
+ 
